@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TYLSE | Techos Curvos Metálicos Sin Estructura en México</title>
+  <meta name="description" content="TYLSE fabrica e instala techos curvos metálicos sin estructura, obra civil, mantenimiento industrial, herrería, estructuras metálicas y servicios para naves en todo México desde 1999.">
+  <meta name="keywords" content="TYLSE, techos curvos, laminados sin estructura, techos metálicos, naves industriales, renta de grúa, venta de lámina en rollo, México">
+  <meta property="og:title" content="TYLSE | Techos y Laminados Sin Estructura">
+  <meta property="og:description" content="Fabricación e instalación de techos curvos metálicos sin estructura para proyectos industriales en todo México.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/proyecto-hero-obra.webp">
+  <link rel="icon" type="image/png" href="assets/logo-tylse.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader" aria-hidden="true">
+  <div class="ld-panel">
+    <div class="ld-logo">
+      <img src="assets/logo-tylse.png" alt="" class="ld-logo-img">
+      <div class="ld-ring"></div>
+    </div>
+    <div class="ld-brand">
+      <p class="ld-name">TYLSE</p>
+      <p class="ld-tag">Cargando experiencia industrial</p>
+    </div>
+    <div class="ld-progress">
+      <div class="ld-track"><div class="ld-fill"></div></div>
+      <p class="ld-note">Cargando...</p>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav" role="navigation" aria-label="Menú principal">
+  <div class="nav-wrap">
+    <a href="#hero" class="logo" aria-label="TYLSE">
+      <img src="assets/logo-tylse.png" alt="TYLSE Techos y Laminados Sin Estructura" class="logo-img">
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#about">Empresa</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#why">Ventajas</a></li>
+      <li><a href="#galeria">Proyectos</a></li>
+      <li><a href="#contact" class="nav-cta">WhatsApp</a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div id="mob" class="mob-menu" role="navigation" aria-label="Menú móvil">
+  <a href="#about">Empresa</a>
+  <a href="#services">Servicios</a>
+  <a href="#why">Ventajas</a>
+  <a href="#galeria">Proyectos</a>
+  <a href="https://wa.me/522225234901?text=Hola%20TYLSE%2C%20quiero%20solicitar%20informacion%20sobre%20sus%20servicios." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+</div>
+
+<main>
+
+<!-- HERO -->
+<section id="hero" aria-label="Encabezado principal">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-ov" aria-hidden="true"></div>
+  <canvas id="pcanvas" class="particle-canvas" aria-hidden="true"></canvas>
+
+  <div class="hero-body">
+    <div class="wrap">
+      <p class="hero-eyebrow rev">Servicio a todo México · Desde 1999</p>
+      <h1 class="hero-h1 rev d1">
+        <span class="h1-line"><span class="h1-inner">Techos curvos metálicos</span></span>
+        <span class="h1-line h1-accent"><span class="h1-inner">sin estructura</span></span>
+        <span class="h1-line"><span class="h1-inner">para obra industrial</span></span>
+      </h1>
+      <p class="hero-typewriter rev d2" aria-label="Servicios destacados">
+        <span class="tw-label">Especialistas en:</span>
+        <span class="tw-text" id="twText"></span><span class="tw-cursor" aria-hidden="true">|</span>
+      </p>
+      <p class="hero-p rev d3">
+        TYLSE fabrica e instala techos curvos y laminados sin estructura para naves, bodegas e instalaciones industriales. Un sistema limpio, resistente y eficiente, ejecutado por un equipo con trayectoria nacional.
+      </p>
+      <div class="hero-btns rev d4">
+        <a href="https://wa.me/522225234901?text=Hola%20TYLSE%2C%20quiero%20solicitar%20una%20cotizacion%20para%20un%20proyecto%20de%20techo%20curvo." target="_blank" rel="noopener noreferrer" class="btn-primary">
+          Solicitar Cotización
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#galeria" class="btn-secondary">Ver Proyectos</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats" aria-label="Datos de confianza">
+    <div class="wrap">
+      <div class="stats-row">
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="27" data-prefix="+" data-suffix="">+0</span>
+          <span class="stat-lbl">Años de trayectoria</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="11" data-prefix="" data-suffix="">0</span>
+          <span class="stat-lbl">Servicios industriales</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val">México</span>
+          <span class="stat-lbl">Cobertura nacional</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section id="trust" aria-label="Servicios principales">
+  <div class="trust-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="trust-row rev">
+      <p class="trust-label">Soluciones TYLSE</p>
+      <div class="trust-chips">
+        <span class="trust-chip">Techos curvos</span>
+        <span class="trust-chip">Estructuras metálicas</span>
+        <span class="trust-chip">Obra civil</span>
+        <span class="trust-chip">Renta de grúa</span>
+        <span class="trust-chip">Lámina en rollo</span>
+        <span class="trust-chip">Mantenimiento industrial</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section bg-white">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-img-wrap rev from-l">
+        <div class="about-img-main parallax-card">
+          <img src="assets/proyecto-interior-estructura.webp" alt="Interior de nave industrial en obra con techo curvo metálico instalado por TYLSE" loading="lazy">
+        </div>
+        <div class="about-accent">
+          <p class="a-num">1999</p>
+          <p class="a-lbl">Trayectoria en el sector</p>
+        </div>
+      </div>
+      <div class="about-text rev">
+        <p class="eyebrow">Quiénes somos</p>
+        <h2 class="heading heading--shine">Ingeniería ligera para cubrir grandes claros.</h2>
+        <p>TYLSE, Techos y Laminados Sin Estructura, es una empresa especializada en la fabricación e instalación de techos curvos metálicos sin soporte interno para proyectos industriales, naves y bodegas.</p>
+        <p>Su trabajo integra soluciones de obra civil, estructuras metálicas, mantenimiento industrial, herrería y servicios de apoyo como renta de grúa, generadores, engargolador, logística e iluminación de naves.</p>
+        <div class="about-stats">
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="27" data-prefix="+" data-suffix=""></p>
+            <p class="a-stat-l">Años desde 1999</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="11" data-prefix="" data-suffix=""></p>
+            <p class="a-stat-l">Servicios listados</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">Mx</p>
+            <p class="a-stat-l">Servicio nacional</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section bg-off">
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow">Servicios</p>
+      <h2 class="heading heading--shine">Capacidad completa para proyectos industriales.</h2>
+      <p class="sub">Servicios reales de TYLSE, organizados para que encuentres rápido la solución que necesita tu nave, bodega o planta.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc-card rev d1">
+        <div class="svc-photo"><img src="assets/proyecto-cubierta-brillante.webp" alt="Cubierta curva metálica exterior realizada por TYLSE" loading="lazy"></div>
+        <span class="svc-num" aria-hidden="true">01</span>
+        <h3>Techos curvos</h3>
+        <p>Fabricación e instalación de techos curvos metálicos sin estructura interna para cubrir claros industriales con una apariencia limpia y resistente.</p>
+      </article>
+      <article class="svc-card rev d2">
+        <div class="svc-photo"><img src="assets/proyecto-grua-montaje.webp" alt="Instalación de estructura metálica con grúa en proyecto TYLSE" loading="lazy"></div>
+        <span class="svc-num" aria-hidden="true">02</span>
+        <h3>Estructuras metálicas y herrería</h3>
+        <p>Soluciones metálicas para obra industrial, herrería en general y soporte técnico en campo para complementar el sistema de cubierta.</p>
+      </article>
+      <article class="svc-card rev d3">
+        <div class="svc-photo"><img src="assets/proyecto-fachada-grua.webp" alt="Fachada industrial y nave con trabajos de obra civil de TYLSE" loading="lazy"></div>
+        <span class="svc-num" aria-hidden="true">03</span>
+        <h3>Obra civil</h3>
+        <p>Ejecución de trabajos complementarios para preparar, adaptar o cerrar espacios industriales con coordinación de obra y logística.</p>
+      </article>
+      <article class="svc-card rev d4">
+        <div class="svc-photo"><img src="assets/proyecto-interior-iluminacion.webp" alt="Interior de techo curvo con iluminación de nave industrial" loading="lazy"></div>
+        <span class="svc-num" aria-hidden="true">04</span>
+        <h3>Iluminación y mantenimiento</h3>
+        <p>Mantenimiento industrial e iluminación de naves para conservar funcionalidad, seguridad visual y continuidad operativa.</p>
+      </article>
+      <article class="svc-card rev d5">
+        <div class="svc-photo"><img src="assets/proyecto-grua-material.webp" alt="Lámina y material metálico en obra para proyecto TYLSE" loading="lazy"></div>
+        <span class="svc-num" aria-hidden="true">05</span>
+        <h3>Lámina en rollo y engargolador</h3>
+        <p>Venta de lámina en rollo y renta de engargolador para proyectos que requieren continuidad, precisión y acabado metálico profesional.</p>
+      </article>
+      <article class="svc-card rev d6">
+        <div class="svc-photo"><img src="assets/proyecto-logistica.webp" alt="Logística en obra industrial para proyecto TYLSE" loading="lazy"></div>
+        <span class="svc-num" aria-hidden="true">06</span>
+        <h3>Logística, grúa y generadores</h3>
+        <p>Apoyo operativo con logística, renta de grúa y renta de generadores para mantener el avance del proyecto en diferentes condiciones de obra.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- INVENTARIO / WHY CHOOSE -->
+<section id="why" class="section bg-ink">
+  <div class="why-bg" aria-hidden="true"></div>
+  <canvas id="pcanvasWhy" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow eyebrow--white">Por qué elegirnos</p>
+      <h2 class="heading heading--white heading--shine-dark">Precisión industrial, imagen limpia y cobertura nacional.</h2>
+      <p class="sub sub--white">Cuatro razones claras para considerar a TYLSE cuando tu proyecto necesita una cubierta metálica sin estructura de soporte interna.</p>
+    </div>
+    <div class="why-cards">
+      <article class="why-card rev d1">
+        <span class="why-num">01</span>
+        <h3>Especialización directa</h3>
+        <p>La empresa se enfoca en techos y laminados sin estructura, un sistema pensado para espacios amplios y uso industrial.</p>
+      </article>
+      <article class="why-card rev d2">
+        <span class="why-num">02</span>
+        <h3>Trayectoria desde 1999</h3>
+        <p>Experiencia acumulada en proyectos de naves, bodegas y cubiertas metálicas con ejecución real en campo.</p>
+      </article>
+      <article class="why-card rev d3">
+        <span class="why-num">03</span>
+        <h3>Servicios integrales</h3>
+        <p>Además de la cubierta, TYLSE integra obra civil, estructuras, mantenimiento, herrería, renta de equipo y logística.</p>
+      </article>
+      <article class="why-card rev d4">
+        <span class="why-num">04</span>
+        <h3>Servicio a todo México</h3>
+        <p>La cobertura nacional facilita proyectos industriales fuera de una sola ciudad o zona de operación.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section id="numbers">
+  <div class="numbers-bg" aria-hidden="true"></div>
+  <div class="numbers-ov" aria-hidden="true"></div>
+  <canvas id="pcanvasNumbers" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow eyebrow--white">Proceso</p>
+      <h2 class="heading heading--white heading--shine-dark">De la idea a la cubierta instalada.</h2>
+    </div>
+    <div class="numbers-grid process-grid">
+      <div class="number-item rev d1">
+        <p class="num-v">Paso 01</p>
+        <p class="num-l">Comparte las medidas, ubicación del proyecto y tipo de servicio que necesitas.</p>
+      </div>
+      <div class="number-item rev d2">
+        <p class="num-v">Paso 02</p>
+        <p class="num-l">TYLSE revisa el alcance y te orienta sobre la solución industrial adecuada.</p>
+      </div>
+      <div class="number-item rev d3">
+        <p class="num-v">Paso 03</p>
+        <p class="num-l">Agenda tu cotización por WhatsApp para coordinar fabricación, instalación y logística.</p>
+      </div>
+    </div>
+    <div class="metric-grid rev">
+      <div class="metric">
+        <p class="metric-n" data-count="27" data-prefix="+" data-suffix=""></p>
+        <p class="metric-l">Años de trayectoria</p>
+      </div>
+      <div class="metric">
+        <p class="metric-n" data-count="11" data-prefix="" data-suffix=""></p>
+        <p class="metric-l">Servicios disponibles</p>
+      </div>
+      <div class="metric">
+        <p class="metric-n" data-count="2" data-prefix="" data-suffix=""></p>
+        <p class="metric-l">Líneas de contacto</p>
+      </div>
+      <div class="metric">
+        <p class="metric-n">Mx</p>
+        <p class="metric-l">Cobertura nacional</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria">
+  <canvas id="pcanvasGaleria" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="brands-head rev">
+      <p class="eyebrow eyebrow--white">Proyectos reales</p>
+      <h2 class="heading heading--white heading--shine-dark">Evidencia visual de obra ejecutada.</h2>
+      <p class="brands-sub">Fotografías disponibles del material gráfico de TYLSE: naves, bodegas, techos curvos e instalaciones en proceso.</p>
+    </div>
+    <div class="brands-grid">
+      <figure class="brand-card rev d1">
+        <div class="brand-card-inner"><img src="assets/proyecto-hero-obra.webp" alt="Naves industriales con techos curvos al atardecer" loading="lazy"></div>
+        <figcaption>Techos curvos para nave industrial.</figcaption>
+      </figure>
+      <figure class="brand-card rev d2">
+        <div class="brand-card-inner"><img src="assets/proyecto-interior-estructura.webp" alt="Interior de nave industrial en etapa de instalación" loading="lazy"></div>
+        <figcaption>Interior de nave en etapa de instalación.</figcaption>
+      </figure>
+      <figure class="brand-card rev d3">
+        <div class="brand-card-inner"><img src="assets/proyecto-cubierta-brillante.webp" alt="Cubierta curva metálica con acabado reflectante" loading="lazy"></div>
+        <figcaption>Cubierta metálica con acabado limpio.</figcaption>
+      </figure>
+      <figure class="brand-card rev d4">
+        <div class="brand-card-inner"><img src="assets/proyecto-interior-iluminacion.webp" alt="Interior iluminado de nave con techo curvo" loading="lazy"></div>
+        <figcaption>Interior con iluminación y cubierta instalada.</figcaption>
+      </figure>
+      <figure class="brand-card rev d1">
+        <div class="brand-card-inner"><img src="assets/proyecto-naves-exterior.webp" alt="Naves industriales con techos curvos terminados" loading="lazy"></div>
+        <figcaption>Naves exteriores con cubierta curva.</figcaption>
+      </figure>
+      <figure class="brand-card rev d2">
+        <div class="brand-card-inner"><img src="assets/proyecto-grua-montaje.webp" alt="Montaje de estructura y cubierta con grúa" loading="lazy"></div>
+        <figcaption>Montaje con equipo de elevación.</figcaption>
+      </figure>
+      <figure class="brand-card rev d3">
+        <div class="brand-card-inner"><img src="assets/proyecto-cubierta-campo.webp" alt="Cubierta metálica curva terminada en área abierta" loading="lazy"></div>
+        <figcaption>Cubierta terminada en entorno industrial.</figcaption>
+      </figure>
+      <figure class="brand-card rev d4">
+        <div class="brand-card-inner"><img src="assets/proyecto-nocturno.webp" alt="Nave industrial con cubierta metálica durante trabajo nocturno" loading="lazy"></div>
+        <figcaption>Proyecto iluminado en jornada nocturna.</figcaption>
+      </figure>
+      <figure class="brand-card rev d1">
+        <div class="brand-card-inner"><img src="assets/proyecto-grua-material.webp" alt="Grúa y materiales metálicos preparados para instalación" loading="lazy"></div>
+        <figcaption>Material preparado para instalación.</figcaption>
+      </figure>
+      <figure class="brand-card rev d2">
+        <div class="brand-card-inner"><img src="assets/proyecto-pasillo-industrial.webp" alt="Pasillo industrial con nave y obra avanzada" loading="lazy"></div>
+        <figcaption>Avance de obra en zona industrial.</figcaption>
+      </figure>
+      <figure class="brand-card rev d3">
+        <div class="brand-card-inner"><img src="assets/proyecto-vista-superior.webp" alt="Vista superior de cubierta metálica curva" loading="lazy"></div>
+        <figcaption>Vista superior de cubierta metálica.</figcaption>
+      </figure>
+      <figure class="brand-card rev d4">
+        <div class="brand-card-inner"><img src="assets/proyecto-interior-arco.webp" alt="Interior de nave con arco metálico y claro amplio" loading="lazy"></div>
+        <figcaption>Claro amplio sin estructura interna.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section bg-off">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info rev from-l">
+        <div class="contact-info-bg" aria-hidden="true"></div>
+        <div class="contact-info-content">
+          <p class="eyebrow eyebrow--white">Contacto</p>
+          <h2 class="heading heading--white">Cotiza tu proyecto con TYLSE.</h2>
+          <p class="sub sub--white">Escríbenos por WhatsApp con la información de tu proyecto y te atenderemos por los canales oficiales del negocio.</p>
+          <div class="c-item">
+            <div class="c-icon">☎</div>
+            <div>
+              <p class="c-label">Teléfono / WhatsApp</p>
+              <p class="c-value"><a href="tel:+522225234901">222 523 4901</a> · <a href="tel:+529531791790">953 179 1790</a></p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">✉</div>
+            <div>
+              <p class="c-label">Correo</p>
+              <p class="c-value"><a href="mailto:Tylse@hotmail.com">Tylse@hotmail.com</a></p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">⌖</div>
+            <div>
+              <p class="c-label">Cobertura</p>
+              <p class="c-value">Servicio a todo el país, México.</p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">f</div>
+            <div>
+              <p class="c-label">Facebook</p>
+              <p class="c-value"><a href="https://www.facebook.com/search/top?q=Tylse%20Tylse" target="_blank" rel="noopener noreferrer">Tylse Tylse</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rev">
+        <div class="form-wrap">
+          <h3>Solicitar Cotización</h3>
+          <p class="form-sub">El formulario abre WhatsApp con tu mensaje listo. No envía correos ni deja la solicitud cargando.</p>
+          <form id="cForm" novalidate>
+            <div class="frow">
+              <div class="fg">
+                <label class="fl" for="fn">Nombre *</label>
+                <input class="fi" type="text" id="fn" name="nombre" placeholder="Tu nombre" required autocomplete="name">
+              </div>
+              <div class="fg">
+                <label class="fl" for="ft">Teléfono *</label>
+                <input class="fi" type="tel" id="ft" name="telefono" placeholder="+52" required autocomplete="tel">
+              </div>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fs">Servicio de interés *</label>
+              <select class="fi" id="fs" name="servicio" required>
+                <option value="">Selecciona un servicio</option>
+                <option value="Techos curvos">Techos curvos</option>
+                <option value="Obra civil">Obra civil</option>
+                <option value="Mantenimiento industrial">Mantenimiento industrial</option>
+                <option value="Herrería en general">Herrería en general</option>
+                <option value="Estructuras metálicas">Estructuras metálicas</option>
+                <option value="Venta de lámina en rollo">Venta de lámina en rollo</option>
+                <option value="Renta de engargolador">Renta de engargolador</option>
+                <option value="Renta de generadores">Renta de generadores</option>
+                <option value="Iluminación de naves">Iluminación de naves</option>
+                <option value="Logística">Logística</option>
+                <option value="Renta de grúa">Renta de grúa</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fm">Mensaje</label>
+              <textarea class="fi" id="fm" name="mensaje" rows="4" placeholder="Cuéntanos medidas, ciudad, tipo de nave o etapa del proyecto..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              Enviar por WhatsApp
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-card rev">
+      <iframe
+        class="map-frame"
+        src="https://maps.google.com/maps?q=Mexico&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Cobertura nacional de TYLSE en México">
+      </iframe>
+      <span class="map-tag">Cobertura nacional · Servicio a todo México</span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">
+          <img src="assets/logo-tylse.png" alt="TYLSE" class="foot-logo-img">
+        </div>
+        <p class="foot-desc">Techos y Laminados Sin Estructura para proyectos industriales con servicio a todo México.</p>
+        <div class="foot-social">
+          <a href="https://www.facebook.com/search/top?q=Tylse%20Tylse" target="_blank" rel="noopener noreferrer" aria-label="TYLSE en Facebook" class="foot-social-btn">f</a>
+          <a href="https://wa.me/522225234901" target="_blank" rel="noopener noreferrer" aria-label="TYLSE en WhatsApp" class="foot-social-btn">W</a>
+        </div>
+      </div>
+      <div>
+        <p class="foot-col-title">Empresa</p>
+        <ul class="foot-links">
+          <li><a href="#about">Quiénes somos</a></li>
+          <li><a href="#why">Por qué elegirnos</a></li>
+          <li><a href="#galeria">Proyectos reales</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Servicios</p>
+        <ul class="foot-links">
+          <li><a href="#services">Techos curvos</a></li>
+          <li><a href="#services">Estructuras metálicas</a></li>
+          <li><a href="#services">Obra civil</a></li>
+          <li><a href="#services">Renta de grúa</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Contacto</p>
+        <ul class="foot-links">
+          <li><a href="tel:+522225234901">222 523 4901</a></li>
+          <li><a href="tel:+529531791790">953 179 1790</a></li>
+          <li><a href="mailto:Tylse@hotmail.com">Tylse@hotmail.com</a></li>
+          <li><a href="#contact">Solicitar cotización</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 <span>TYLSE</span>. Todos los derechos reservados.</p>
+      <p>Techos y Laminados Sin Estructura</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING ACTION BUTTONS -->
+<div class="fab-stack">
+  <div class="fab-item">
+    <span class="fab-tip">Facebook</span>
+    <a href="https://www.facebook.com/search/top?q=Tylse%20Tylse" target="_blank" rel="noopener noreferrer" class="fab-btn fb-btn" aria-label="Visitar TYLSE en Facebook">f</a>
+  </div>
+  <div class="fab-item">
+    <span class="fab-tip">WhatsApp</span>
+    <a href="https://wa.me/522225234901?text=Hola%20TYLSE%2C%20quiero%20solicitar%20informacion%20sobre%20sus%20servicios." target="_blank" rel="noopener noreferrer" class="fab-btn wa-btn" aria-label="Contactar a TYLSE por WhatsApp">W</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

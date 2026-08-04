@@ -346,7 +346,7 @@ textarea {
 }
 
 .hero-bg {
-  background-image: url("assets/hero-techos-curvos.webp");
+  background-image: url("assets/proyecto-hero-obra.webp");
   opacity: .54;
   background-attachment: fixed;
 }
@@ -799,7 +799,7 @@ textarea {
 }
 
 .why-bg {
-  background-image: url("assets/cubierta-vista-aerea.webp");
+  background-image: url("assets/proyecto-vista-superior.webp");
   opacity: .17;
   background-attachment: fixed;
 }
@@ -856,7 +856,7 @@ textarea {
 }
 
 .numbers-bg {
-  background-image: url("assets/interior-techo-curvo.webp");
+  background-image: url("assets/proyecto-interior-arco.webp");
   opacity: .28;
   background-attachment: fixed;
 }
@@ -935,7 +935,7 @@ textarea {
   overflow: hidden;
   background:
     linear-gradient(180deg, rgba(7, 20, 13, .92), rgba(7, 20, 13, .98)),
-    url("assets/fachada-industrial.webp") center / cover fixed;
+    url("assets/proyecto-fachada-grua.webp") center / cover fixed;
 }
 
 .brands-head {
@@ -996,7 +996,7 @@ textarea {
   inset: 0;
   background:
     linear-gradient(180deg, rgba(7, 20, 13, .86), rgba(7, 20, 13, .92)),
-    url("assets/nave-industrial-terminada.webp") center / cover;
+    url("assets/proyecto-naves-exterior.webp") center / cover;
 }
 
 .contact-info-content {
